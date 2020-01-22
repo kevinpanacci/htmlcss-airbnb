@@ -1,0 +1,63 @@
+* {
+    margin: 0:auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 80vh;
+    width: 35vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section {
+    position: relative;
+    width: 90%;
+    height: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2vh auto;
+}
+
+.top {
+    background-image: url("https://hashtagviaggi.files.wordpress.com/2016/02/praga-di-notte.jpg");
+    display: block;
+}
+
+.mid {
+    background-image: url("https://www.dreavel.com/libraries2.0/php/imgRedim/img.php?w=870&h=565&img=https://www.dreavel.com/data/immagini_attivita/20150316153743_img_92fb2.jpg");
+    display: block;
+}
+
+.bot {
+    background-image: url("http://www.michelesettembre.com/wp-content/uploads/2015/06/DSC_8697_2.jpg");
+    display: block;
+}
+
+.text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: white;
+}
+
+overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 0, 0, 0.3);
+}
